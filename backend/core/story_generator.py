@@ -28,7 +28,7 @@ class StoryGenerator:
 
         from langchain_google_genai import ChatGoogleGenerativeAI
 
-        gemini_api_key = "AIzaSyA5-4XnhgmaUZmYLHVA1i_KYi0G5SjTSxQ"
+        gemini_api_key = ""
 
         if gemini_api_key:
             return ChatGoogleGenerativeAI(
